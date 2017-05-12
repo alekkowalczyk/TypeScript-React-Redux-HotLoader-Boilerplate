@@ -6,7 +6,7 @@ const path = require("path");
          "react-hot-loader/patch",
          "webpack-dev-server/client?http://localhost:3000",
          "webpack/hot/only-dev-server",
-         './src/index.tsx'
+         './src/index'
      ],
      devtool: 'source-map',
      output: {

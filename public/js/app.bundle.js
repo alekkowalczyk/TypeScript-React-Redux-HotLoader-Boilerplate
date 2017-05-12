@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "6e25b211ebdb747a964a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "936d804e78f2dd87da99"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -10394,7 +10394,7 @@ class CounterModel {
         this.num = props.num;
     }
     Increase() {
-        return new CounterModel(Object.assign({}, this, { num: this.num + 1 }));
+        return new CounterModel(Object.assign({}, this, { num: this.num + 2 }));
     }
     Decrease() {
         return new CounterModel(Object.assign({}, this, { num: this.num - 1 }));
