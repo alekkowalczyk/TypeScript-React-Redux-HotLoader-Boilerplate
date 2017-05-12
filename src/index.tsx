@@ -4,7 +4,6 @@ import { Provider } from "react-redux";
 import { AppContainer } from "react-hot-loader";
 import { CounterPage } from "./app/containers";
 import configureStore from "./app/store/configureStore";
-import routes from "./app/store/routes";
 import { INITIAL_STATE } from "./counter/reducers/rootCounterReducer";
 import App from "./app/containers/app";
 
